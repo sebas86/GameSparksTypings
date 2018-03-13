@@ -1,0 +1,19 @@
+{
+  "name": "@types/gamesparks-cloud-code-api",
+  "version": "1.0.0",
+  "description": "",
+  "types": "./index.d.ts",
+  "dependencies": {},
+  "author": "Jordan Ephron",
+  "contributors": [
+    {
+      "name": "ajinkyanazare",
+      "url": "https://github.com/ajinkyanazare"
+    },
+    {
+      "name": "Sebastian Śledź",
+      "url": "http://garaz.net"
+    }
+  ],
+  "license": "ISC"
+}
