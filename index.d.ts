@@ -1,3 +1,4 @@
+/// <reference path="./GSTypings/Globals.d.ts"/>
 /// <reference path="./GSTypings/IChatMessage.d.ts"/>
 /// <reference path="./GSTypings/IPendingMatch.d.ts"/>
 /// <reference path="./GSTypings/ISendGrid.d.ts"/>
