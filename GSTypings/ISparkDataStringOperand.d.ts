@@ -1,9 +1,9 @@
 interface ISparkDataStringOperand{
-    between(string: JSON, string: JSON) : ISparkDataCondition
-    eq(string: any) : ISparkDataCondition
-    gt(string: any) : ISparkDataCondition
-    in(string: Number[]) : ISparkDataCondition
-    lt(string: any) : ISparkDataCondition
-    ne(string: any) : ISparkDataCondition
-    startsWith(string: string) : ISparkDataCondition
+    between(low: string, high: string) : ISparkDataCondition
+    eq(value: string) : ISparkDataCondition
+    gt(value: string) : ISparkDataCondition
+    in(value: string[]) : ISparkDataCondition
+    lt(value: string) : ISparkDataCondition
+    ne(value: string) : ISparkDataCondition
+    startsWith(value: string) : ISparkDataCondition
 }
