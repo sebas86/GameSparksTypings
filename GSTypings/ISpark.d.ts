@@ -60,4 +60,6 @@ interface ISpark {
 	removeAllScriptData(): void
 	getRemainingMilliseconds(): number
 	getData(): any
+    findPlayers(query: any, elements: {[key: string]: number}, limit?: number): ISparkPlayer[];
+    systemCollection(collectionName: string): ISparkMongoCollectionReadWrite;
 }
