@@ -61,3 +61,4 @@
 /// <reference path="./GSTypings/SparkPendingMatch.d.ts"/>
 /// <reference path="./GSTypings/SparkUploadableUtils.d.ts"/>
 /// <reference path="./GSTypings/XMLObject.d.ts"/>
+/// <reference path="./RealTimeTypings/RTSession.d.ts"/>
