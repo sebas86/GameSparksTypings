@@ -75,4 +75,12 @@ interface ISparkPlayer {
 	getScriptData(name: string): any
 	setScriptData(name: string, value: any): void
 	removeScriptData(name: string): void
+
+    credit(shortCode: string, quantity: number): void;
+    credit(shortCode: string, quantity: number, reason: string): void;
+    debit(shortCode: string, quantity: number): boolean;
+    debit(shortCode: string, quantity: number): boolean;
+    debit(shortCode: string, quantity: number, reason: string): boolean;
+    getBalance(shortCode: string): number;
+    getAllBalances(): any[];
 }
